@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Registration</title>
+    </head>
+
+    <body>
+        <form>
+            <div>
+                <h1>Race Registration</h1>
+                <label for="name">Firstname:</label>
+                <input type="text" id="first" name="name" required>
+                <label for="name">Lastname:</label>
+                <input type="text" id="last" name="name" required>
+            </div>
+
+            <p>Select A Race:</p>
+
+            <div>
+                <input type="radio" id="fun run" name="drone" value="fun run">
+                <label for="Fun Run 5K">Fun Run 5K</label>
+            </div>
+
+            <div>
+                <input type="radio" id="half" name="drone" value="half">
+                <label for="Half Marathon">Half Marathon</label>
+            </div>
+
+            <div>
+                <input type="radio" id="full" name="drone" value="full">
+                <label for="Full Marathon">Full Marathon</label>
+            </div>
+
+            <div>
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+                <label for="pass">Password:</label>
+                <input type="password" id="pass" name="password" required>
+            </div>
+
+            <div>
+                <label for="age select">Select Age Group:</label>
+                <select name="ages" id="age select">
+                    <option value="">--under 18--</option>
+                    <option value="18-30">18-30</option>
+                    <option value="30-50">30-50</option>
+                    <option value="50+">50+</option>
+                </select>
+            </div>
+
+            <button type="button" id="register-button">Register</button>
+
+
+        </form>
+
+    </body>
+
+</html>

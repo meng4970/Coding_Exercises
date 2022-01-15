@@ -1,0 +1,12 @@
+div {
+    border: 210px solid grey;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.scr{
+    border-width:200px;
+    color: rgb(236,183,191);
+    border-style: solid;
+    border-radius: 50%;
+}
